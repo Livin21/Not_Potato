@@ -35,6 +35,6 @@ with tf.Session() as sess:
     firstElt = top_k[0];
 
     if (label_lines[firstElt] == "potato"):
-        print('Potato')
+        print('\n\n\t%s : Potato\n\n' % sys.argv[1])
     else:
-        print('Not Potato')
+        print('\n\n\t%s : Not Potato\n\n' % sys.argv[1])
