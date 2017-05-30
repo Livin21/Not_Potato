@@ -7,6 +7,6 @@
 - Tensorflow
 
 ### Run
-```
-	python potato_not_potato.py path/to/image/file.jpg
+```bash
+python potato_not_potato.py path/to/image/file.jpg
 ```
